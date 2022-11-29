@@ -10,3 +10,9 @@
 - repo (repository)
 - GUI
 - markdown
+
+## GitHub Commands
+- git status
+- git add <file-name>
+- git commit -m "meaningful message"
+- git push origin main
