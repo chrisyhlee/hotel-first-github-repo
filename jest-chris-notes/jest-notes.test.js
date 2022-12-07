@@ -155,3 +155,5 @@ describe ("allColdActivities", () => {
 
 const allColdActivities = ((value1, value2) => (value1.concat(value2)).sort())
 // console.log(allColdActivities(coldActivities, moreStuff))
+
+// ** You can think of a test as each 'it' statement that is testing a single thing. The suite of tests would be many tests working together to produce confidence in your code.
