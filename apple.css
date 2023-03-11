@@ -1,0 +1,11 @@
+.table-container {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  height: 300px;
+  width: 300px;
+}

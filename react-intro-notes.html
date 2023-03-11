@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Intro to React</title>
+  </head>
+  <body>
+    <div id="react-container"></div>
+
+    <script type="text/babel">
+
+
+    // this function is a 'functional component' -> using PascalCase, not camelCase
+      const App = () => {
+        // returns JSX
+        return (
+        <>
+        <h1>Hotel 2022</h1>
+        <Hotel/>
+        <ListOfNames/>
+        <MyFooter/>
+        </>
+        )
+      }
+
+      const Hotel = () => {
+        return <h2>Happy Friday!!</h2>
+      }
+
+      const ListOfNames = () => {
+        return <ul>
+                    <li>Aileen</li>
+                    <li>Bo</li>
+                    <li>Chris</li>
+                    <li>Christian</li>
+                    <li>Dave</li>
+                    <li>Dominque</li>
+                    <li>Fred</li>
+                    <li>James</li>
+                    <li>Lea</li>
+                    <li>Matthew</li>
+                    <li>Molly</li>
+                    <li>Monica</li>
+                    <li>Moss</li>
+                    <li>Natally</li>
+                    <li>Ney</li>
+                    <li>Octavio</li>
+                    <li>Oscar</li>
+                    <li>Raquel</li>
+                    <li>Raymond</li>
+                    <li>Romeo</li>
+                    <li>Sammy</li>
+                    <li>Torin</li>
+                </ul>
+      }
+
+      const MyFooter = () => {
+        return <footer>Very very proud of this beautiful web page! - Chris Lee</footer>
+      }
+
+      const domContainer = document.querySelector("#react-container")
+      const root = ReactDOM.createRoot(domContainer)
+      root.render(<App />)
+    </script>
+  </body>
+</html>

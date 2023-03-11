@@ -1,0 +1,13 @@
+.card {
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+}
+
+/* flexbox properties */
+.episode-cards {
+  display: flex;
+  justify-content: space-around;
+}
+

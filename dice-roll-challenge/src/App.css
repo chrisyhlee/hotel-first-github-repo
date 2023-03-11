@@ -1,0 +1,28 @@
+.box {
+  border: 2px solid black;
+  width: 1000px;
+  /* height: 250px; */
+  padding: 10px;
+}
+
+.dice1 {
+  height: 100px
+}
+
+.Dice1 {
+  position: absolute;
+  top: 114px;
+  left: 200px;
+  /* height: 250px; */
+  /* background-color: yellow; */
+}
+
+/* .App-header {
+  background-color:rgb(161, 249, 211);
+} */
+ /* .background {
+  position: absolute;
+  top: 10px;
+  /* height: 400px; */
+  /* background-color: rgb(161, 249, 211);
+ } */
