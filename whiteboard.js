@@ -66,3 +66,11 @@ const paliChecker = (str) => {
 }
 
 // console.log(paliChecker('racecar'));
+
+const nameArray = ["Chris", "Trish", "Jake"]
+
+const secret = (arr) => {
+    return arr.map(name => name[0]).join("")
+}
+
+console.log(secret(nameArray))
